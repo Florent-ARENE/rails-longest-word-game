@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+ .letters-flex {
+  display: flex;
+ }
+
+ .letters-flex div {
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  background-color: rgb(68, 107, 213);
+  color: white;
+  text-shadow: 0 3px 10px #000;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
